@@ -7,6 +7,7 @@ import android.app.Activity;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 //import android.support.v4.app.FragmentManager;
+
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v7.app.AppCompatActivity;
@@ -14,6 +15,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
+
 
 /**
  * Created by C4Q on 10/5/16.
@@ -38,9 +40,11 @@ public class ChooserFragment extends Fragment {
     public void onViewCreated(View view, Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
         meme1 = (Button) view.findViewById(R.id.meme_archer);
-        meme2 = (Button) view.findViewById(R.id.meme_putin);
+        meme2 = (Button) view.findViewById(R.id.meme_purr);
         meme3 = (Button) view.findViewById(R.id.meme_leo);
-        meme4 = (Button) view.findViewById(R.id.meme_purr);
+        meme4 = (Button) view.findViewById(R.id.meme_putin);
+
+
         meme1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -51,6 +55,17 @@ public class ChooserFragment extends Fragment {
             }
         });
 
+        meme2.setOnClickListener(new View.OnClickListener(){
+
+            @Override
+            public void onClick(View v) {
+                AppCompatActivity activity = (AppCompatActivity) getActivity();
+                FragmentManager fragmentManager = activity.getSupportFragmentManager();
+                fragmentManager.beginTransaction().replace(R.id.main_container, new PurrFragment() ,"Purr").commit();
+
+            }
+        });
+
         meme3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -58,6 +73,17 @@ public class ChooserFragment extends Fragment {
                 FragmentManager fragmentManager = activity.getSupportFragmentManager();
                 fragmentManager.beginTransaction().replace(R.id.main_container, new LeoFragment(), "Leo").commit();
 
+            }
+        });
+
+        meme4.setOnClickListener(new View.OnClickListener(){
+
+            @Override
+            public void onClick(View v) {
+                AppCompatActivity activity = (AppCompatActivity) getActivity();
+                FragmentManager fragmentManager = activity.getSupportFragmentManager();
+                fragmentManager.beginTransaction().replace(R.id.main_container, new PutinFragment(), "Putin").commit()
+                ;
             }
         });
     }

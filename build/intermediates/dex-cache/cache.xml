@@ -3,24 +3,6 @@
 
     <item
         is-multidex="true"
-        jar="/Users/RedDragon/Desktop/localAppTest/Memester/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/24.2.1/jars/libs/internal_impl-24.2.1.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.2"
-        sha1="935a969265b2a166b2d20415423f5f6e90fe16e0">
-        <dex dex="/Users/RedDragon/Desktop/localAppTest/Memester/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.1_6e006330648ecc7419d294cb544d936f56774f93/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/RedDragon/Desktop/localAppTest/Memester/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/24.2.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.2"
-        sha1="9c4c3bc902450c39ed54de170db4fb12aea20a35">
-        <dex dex="/Users/RedDragon/Desktop/localAppTest/Memester/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-utils-24.2.1_afc573d2eb188951df0c578404fa8eeb2659fd7b/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
         jar="/Users/RedDragon/Desktop/localAppTest/Memester/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/24.2.1/jars/classes.jar"
         jumboMode="true"
         optimize="true"
@@ -66,15 +48,6 @@
     </item>
     <item
         is-multidex="true"
-        jar="/Users/RedDragon/Desktop/localAppTest/Memester/app/build/intermediates/exploded-aar/com.android.support/support-compat/24.2.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.2"
-        sha1="0ecb4b595fa0f0f8018a149ace3ea6525624f94e">
-        <dex dex="/Users/RedDragon/Desktop/localAppTest/Memester/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-compat-24.2.1_88df21900e3b7d028c95167c726baf1271092b09/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
         jar="/Users/RedDragon/Desktop/localAppTest/Memester/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/24.2.1/jars/classes.jar"
         jumboMode="true"
         optimize="true"
@@ -93,39 +66,12 @@
     </item>
     <item
         is-multidex="true"
-        jar="/Users/RedDragon/Desktop/localAppTest/Memester/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/24.2.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.2"
-        sha1="d5c731fc64c03dfe04d51134955b483551c35849">
-        <dex dex="/Users/RedDragon/Desktop/localAppTest/Memester/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-vector-drawable-24.2.1_e3cec6068d17c80517f540d58e4e792dd0ed1563/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
         jar="/Users/RedDragon/Desktop/localAppTest/Memester/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
         jumboMode="true"
         optimize="true"
         revision="24.0.2"
-        sha1="eb20ecdb27fee6a034f138816fa4dc1058eb4299">
+        sha1="e0ecdcd5aa7e99ca5890dab7a20c2c06d213efa8">
         <dex dex="/Users/RedDragon/Desktop/localAppTest/Memester/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_aa9ac791bec80b7a4a18eb4cba1ecc5ce6c7bd6f/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/RedDragon/Desktop/localAppTest/Memester/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.2"
-        sha1="43b2dba6b5a0b14527961b75329d0b90025f15ea">
-        <dex dex="/Users/RedDragon/Desktop/localAppTest/Memester/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-appcompat-v7-24.2.1_fadcff19b48640830d501fa55623e670f07431cc/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/RedDragon/Desktop/localAppTest/Memester/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.2.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.2"
-        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
-        <dex dex="/Users/RedDragon/Desktop/localAppTest/Memester/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-24.2.1_36fcc7ed35e65b7a41d4325e84e7e9c85b76285e/classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -147,11 +93,65 @@
     </item>
     <item
         is-multidex="true"
+        jar="/Users/RedDragon/Desktop/localAppTest/Memester/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/24.2.1/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="935a969265b2a166b2d20415423f5f6e90fe16e0">
+        <dex dex="/Users/RedDragon/Desktop/localAppTest/Memester/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.1_6e006330648ecc7419d294cb544d936f56774f93/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/RedDragon/Desktop/localAppTest/Memester/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="9c4c3bc902450c39ed54de170db4fb12aea20a35">
+        <dex dex="/Users/RedDragon/Desktop/localAppTest/Memester/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-utils-24.2.1_afc573d2eb188951df0c578404fa8eeb2659fd7b/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/RedDragon/Desktop/localAppTest/Memester/app/build/intermediates/exploded-aar/com.android.support/support-compat/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="0ecb4b595fa0f0f8018a149ace3ea6525624f94e">
+        <dex dex="/Users/RedDragon/Desktop/localAppTest/Memester/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-compat-24.2.1_88df21900e3b7d028c95167c726baf1271092b09/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/RedDragon/Desktop/localAppTest/Memester/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="d5c731fc64c03dfe04d51134955b483551c35849">
+        <dex dex="/Users/RedDragon/Desktop/localAppTest/Memester/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-vector-drawable-24.2.1_e3cec6068d17c80517f540d58e4e792dd0ed1563/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/RedDragon/Desktop/localAppTest/Memester/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="43b2dba6b5a0b14527961b75329d0b90025f15ea">
+        <dex dex="/Users/RedDragon/Desktop/localAppTest/Memester/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-appcompat-v7-24.2.1_fadcff19b48640830d501fa55623e670f07431cc/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/RedDragon/Desktop/localAppTest/Memester/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/Users/RedDragon/Desktop/localAppTest/Memester/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-24.2.1_36fcc7ed35e65b7a41d4325e84e7e9c85b76285e/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="/Users/RedDragon/Desktop/localAppTest/Memester/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
         jumboMode="true"
         optimize="true"
         revision="24.0.2"
-        sha1="ce28363faeb3a4af62fd5f94c2e39207eca311d1">
+        sha1="bf508cc18ff84c1041e84f2f6808d8453e98ad69">
         <dex dex="/Users/RedDragon/Desktop/localAppTest/Memester/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_0e251db84eee67d1bfa67866cc8a70220f310a40/classes.dex" />
     </item>
 
